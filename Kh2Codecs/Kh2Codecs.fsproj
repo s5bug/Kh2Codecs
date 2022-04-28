@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+
+        <AvaloniaVersion>0.10.13</AvaloniaVersion>
+        <AvaloniaFuncUIVersion>0.5.0</AvaloniaFuncUIVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="KhCodecs.fs" />
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Avalonia" Version="$(AvaloniaVersion)" />
+        <PackageReference Include="Avalonia.Desktop" Version="$(AvaloniaVersion)" />
+        <PackageReference Include="Avalonia.Diagnostics" Version="$(AvaloniaVersion)" />
+        <PackageReference Include="JaggerJo.Avalonia.FuncUI" Version="$(AvaloniaFuncUIVersion)" />
+        <PackageReference Include="JaggerJo.Avalonia.FuncUI.DSL" Version="$(AvaloniaFuncUIVersion)" />
+        <PackageReference Include="JaggerJo.Avalonia.FuncUI.Elmish" Version="$(AvaloniaFuncUIVersion)" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\OpenKh\OpenKh.csproj" />
+    </ItemGroup>
+    
+</Project>

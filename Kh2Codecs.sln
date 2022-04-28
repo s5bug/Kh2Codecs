@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Kh2Codecs", "Kh2Codecs\Kh2Codecs.fsproj", "{17B46BDC-AD45-4164-9E5C-FEF742944203}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenKh", "OpenKh\OpenKh.csproj", "{0B3E66A4-B31A-4D8A-B4BF-AF789C2ED7A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17B46BDC-AD45-4164-9E5C-FEF742944203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B46BDC-AD45-4164-9E5C-FEF742944203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B46BDC-AD45-4164-9E5C-FEF742944203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B46BDC-AD45-4164-9E5C-FEF742944203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B3E66A4-B31A-4D8A-B4BF-AF789C2ED7A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3E66A4-B31A-4D8A-B4BF-AF789C2ED7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3E66A4-B31A-4D8A-B4BF-AF789C2ED7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3E66A4-B31A-4D8A-B4BF-AF789C2ED7A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
